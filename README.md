@@ -262,7 +262,7 @@ button.addEventListener('click', async ()=> {
       //drilling our data response
       let dogPic = response.data.message
       //setting our DOM image
-      imageContainer.setAttribute ('src', dogpic)
+      imageContainer.setAttribute ('src', dogPic)
 })
 ```
 
