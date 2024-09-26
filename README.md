@@ -191,7 +191,7 @@ Let's build a simple app that let's us enter a dog breed and uses [The Dog API](
 ```html
 <header>
   <input id="searchbar" type="text" />
-  <button id="btn">Fetch!/button>
+  <button id="btn">Fetch!</button>
 </header>
 <img id ="imgContainer" />
 ```
@@ -242,7 +242,7 @@ At the end, our JS should look something like this:
 ```js
 const button = document.querySelector('#btn')
 const breedInput = document.querySelector('#searchBar')
-const imageDiv = document.querySelector('#imgContainer')
+const imageContainer = document.querySelector('#imgContainer')
 
 //pulls all breeds and logs to the console
 const getBreeds = async () => {
